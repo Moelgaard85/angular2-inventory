@@ -15,22 +15,22 @@ export class AppComponent {
       new Product({
         'sku': 123234,
         'name': 'Jeans Black',
-        'imageUrl': 'http://image.dk',
+        'imageUrl': 'src/assets/images/products/black-hat.jpg',
         'department': ['Bukser', 'Tøj'],
         'price': 125
       }),
       new Product({
         'sku': 523234,
         'name': 'Smart Cardigan',
-        'imageUrl': 'http://image.dk',
-        'department': ['Bluse', 'Tøj'],
+        'imageUrl': 'src/assets/images/products/black-shoes.jpg',
+        'department': ['Bluse', 'Tøj', 'Bluser'],
         'price': 495
       }),
       new Product({
         'sku': 5323234,
         'name': 'Blå Master',
-        'imageUrl': 'http://image.dk',
-        'department': ['Kasket', 'Tøj'],
+        'imageUrl': 'src/assets/images/products/blue-jacket.jpg',
+        'department': ['Kasket'],
         'price': 99
       })
     ];
