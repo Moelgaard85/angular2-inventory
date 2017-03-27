@@ -1,5 +1,5 @@
-import { Product } from '../product-item/product';
 import { Component, HostBinding, Input, OnInit } from '@angular/core';
+import { Product } from 'app/product.model';
 
 @Component({
   selector: 'app-product-image',
